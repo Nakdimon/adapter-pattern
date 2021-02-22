@@ -1,0 +1,29 @@
+{
+  "name": "adapterpattern",
+  "version": "1.0.0",
+  "description": "Adapter pattern examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nakdimon/addapter-pattern.git"
+  },
+  "keywords": [
+    "design",
+    "patterns",
+    "adapter",
+    "tdd"
+  ],
+  "author": "Nicolas Jalil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nakdimon/addapter-pattern/issues"
+  },
+  "homepage": "https://github.com/Nakdimon/addapter-pattern#readme",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "typescript": "^4.1.5"
+  }
+}
