@@ -4,6 +4,19 @@
 
 In software engineering, the adapter pattern is a software design pattern (also known as wrapper, an alternative naming shared with the decorator pattern) that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
 
+## When to use?
+
+- There is a class whose interfaces do not match the one you need.
+- There are several subclasses but it’s impractical to adapt their interface by subclassing every one.
+
+## Types of Adapter Implementations
+
+There are two implementations of this pattern:
+
+- The object adapter implements the target interface by delegating to an adaptee object at run-time.
+- The class adapter implements the target interface by inheriting from an adaptee class at compiler-time.
+
 ### Resources
 
-- https://en.wikipedia.org/wiki/Adapter_pattern
+- [Basic Definiton](https://en.wikipedia.org/wiki/Adapter_pattern)
+- [Usage Cases and Implementations](https://medium.com/better-programming/design-patterns-adapter-efb73c5090e6)
